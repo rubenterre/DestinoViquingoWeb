@@ -549,6 +549,12 @@ padding: 20px 0px;
   flex-direction: column;
 }
 
+.cookies__opcions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cookies__h4{
   color: var(--cor-terciario);
   font-size: 2rem;

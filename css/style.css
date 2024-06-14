@@ -6,11 +6,6 @@
 }
 
 @font-face {
-  font-family: Gill Sans;
-  src: url(../assets/fonts/GillSans.ttc);
-}
-
-@font-face {
   font-family: Montserrat;
   src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
@@ -634,6 +629,10 @@ padding: 20px 0px;
     display: none;
   }
 
+  .presentacion__h2{
+    padding-top: 20px;
+  }
+
   .roteiros__img{
     padding-top: 40px;
   }
@@ -648,6 +647,19 @@ padding: 20px 0px;
 
   .mercar__btn{
     width: 80%;
+    line-height: 1;
+  }
+
+  .cookies{
+    width: 90%;
+  }
+
+  .cookies__aceptar{
+    justify-content: center;
+  }
+
+  .cookies__rechazar{
+    justify-content: center;
   }
 }
 

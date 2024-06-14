@@ -11,6 +11,11 @@
 }
 
 @font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
   font-family: Alice;
   src: url(../assets/fonts/Alice-Regular.ttf);
 }
@@ -20,7 +25,7 @@
   --cor-secundario: #d9cfc5;
   --cor-terciario: #635036;
   --cor--cuaternario:#e6e6e6;
-  --fonte-principal: Gill Sans;
+  --fonte-principal: Montserrat;
   --fonte-secundaria: Alice;
 }
 
@@ -28,6 +33,8 @@ body {
   background: var(--cor-principal);
   color: var(--cor-secundario);
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  line-height: 1.5;
 }
 
 body,
@@ -58,8 +65,16 @@ button {
   background-color: var(--cor-principal);
 }
 
+.btn--mercar{
+  background-color: var(--cor-terciario)!important;
+}
+
 .sidenav .nav__a--mobile {
   color: var(--cor-secundario) !important;
+}
+
+.user-view img{
+  padding-bottom: 20px;
 }
 
 /*// Estilos xerais //*/
@@ -105,7 +120,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 180px;
+  width: 70%;
   box-shadow: 0px 4px 10px black;
   transition: all 1s ease;
 }
@@ -151,6 +166,113 @@ button {
   }
 }
 
+.legal__texto{
+  padding-top: 30px;
+  font-size: .8rem;
+}
+
+.legal__links{
+  padding: 20px 0px;
+  color: var(--cor--cuaternario);
+}
+
+.legal__links a{
+  text-decoration: none;
+  color: var(--cor--cuaternario);
+}
+
+/*// Animacións inicio /*/
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.3;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.x1 {
+  animation: movementoCircle 25s linear infinite;
+  top: 150px;
+}
+
+.x2 {
+  left: 200px;
+  top: 200px;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  -webkit-animation: movementoCircle 35s linear infinite;
+  -moz-animation: movementoCircle 35s linear infinite;
+  -o-animation: movementoCircle 35s linear infinite;
+}
+
+.x3 {
+  left: -250px;
+  bottom: 250px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-animation: movementoCircle 40s linear infinite;
+  -moz-animation: movementoCircle 40s linear infinite;
+  -o-animation: movementoCircle 40s linear infinite;
+}
+
+.x4 {
+  left: 470px;
+  bottom: 300px;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+  animation: movementoCircle 45s linear infinite;
+}
+
+.x5 {
+  left: -150px;
+  bottom: 100px;
+  transform: scale(0.8);
+  animation: movementoCircle 50s linear infinite;
+}
+
+@keyframes movementoCircle {
+  0%{
+    margin-left: 1000px;
+  }
+  100%{
+    margin-left: -1000px;
+  }
+}
+
+@-webkit-keyframes movementoCircle {
+  0% {
+    margin-left: 1000px;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+@-moz-keyframes movementoCircle {
+  0% {
+    margin-left: 1000px;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+@-o-keyframes movementoCircle {
+  0% {
+    margin-left: 1000px;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+
 /*// Presentación //*/
 
 .presentacion {
@@ -170,10 +292,12 @@ button {
 
 .presentacion__h2 {
   color: var(--cor-terciario);
+  margin-top: 0px;
 }
 
 .presentacion__p {
   color: var(--cor-terciario);
+  margin: 0px;
 }
 
 /*// Roteiros //*/
@@ -307,11 +431,6 @@ button {
   column-gap: 20px;
 }
 
-@media screen and (max-width:500px) {
-  .autor__descripcion{
-    column-count:1;
-  }
-}
 
 /*// Mercar //*/
 
@@ -328,6 +447,7 @@ button {
   font-size: 2.5rem;
   color: var(--cor-terciario);
   margin: 10px 0px;
+  font-family: var(--fonte-secundaria);
 }
 
 .mercar__btn{
@@ -418,93 +538,137 @@ padding: 20px 0px;
   font-weight: 700;
 }
 
-/*// Circle animations /*/
+/*// Modal //*/
 
-.circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  position: absolute;
-  overflow: hidden;
-  opacity: 0.3;
-  border-width: 5px;
-  border-style: solid;
+.cookies {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
-.x1 {
-  animation: movecircles 25s linear infinite;
-  top: 150px;
+.cookies__h4{
+  color: var(--cor-terciario);
+  font-size: 2rem;
+  font-family: var(--fonte-secundaria);
 }
 
-.x2 {
-  left: 200px;
-  top: 200px;
-  -webkit-transform: scale(0.6);
-  -moz-transform: scale(0.6);
-  transform: scale(0.6);
-  -webkit-animation: movecircles 35s linear infinite;
-  -moz-animation: movecircles 35s linear infinite;
-  -o-animation: movecircles 35s linear infinite;
+.cookies__p{
+  color: var(--cor-terciario);
 }
 
-.x3 {
-  left: -250px;
-  bottom: 250px;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-animation: movecircles 40s linear infinite;
-  -moz-animation: movecircles 40s linear infinite;
-  -o-animation: movecircles 40s linear infinite;
+.cookies__aceptar{
+  background: var(--cor-secundario);
+  border-radius: 8px;
+  color: var(--cor-terciario);
+  border: 0px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  box-shadow: 0px 4px 10px black;
+  margin: 20px;
+  transition: all 1s ease;
 }
 
-.x4 {
-  left: 470px;
-  bottom: 300px;
-  -webkit-transform: scale(0.75);
-  -moz-transform: scale(0.75);
-  transform: scale(0.75);
-  animation: movecircles 45s linear infinite;
+.cookies__rechazar{
+  background: var(--cor-secundario);
+  border-radius: 8px;
+  color: var(--cor-terciario);
+  border: 0px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  box-shadow: 0px 4px 10px black;
+  margin: 20px;
+  transition: all 1s ease;
 }
 
-.x5 {
-  left: -150px;
-  bottom: 100px;
-  transform: scale(0.8);
-  animation: movecircles 50s linear infinite;
+/*// Botón arriba UP //*/
+
+.btn-floating{
+  background-color: var(--cor-terciario);
 }
 
-@keyframes movicircles {
-  0%{
-    margin-left: 1000px;
+/*// Información legal //*/
+
+.informacionlegal{
+  text-align: center;
+  padding: 40px 0px;
+}
+
+
+/*// Media querys //*/
+
+
+@media screen and (max-width:500px) {
+  
+  .inicio__img{
+    width: 100%;
+    padding-top: 30px;
   }
-  100%{
-    margin-left: -1000px;
+
+  .inicio__btn{
+    width: 100%;
+  }
+
+  .circle{
+    display: none;
+  }
+
+  .roteiros__img{
+    padding-top: 40px;
+  }
+
+  .autor__descripcion{
+    column-count:1;
+  }
+  
+  .mercar__h1{
+    text-align: center;
+  }
+
+  .mercar__btn{
+    width: 80%;
   }
 }
 
-@-webkit-keyframes movecircles {
-  0% {
-    margin-left: 1000px;
-  }
-  100% {
-    margin-left: -1000px;
-  }
+
+/*// Aviso legal //*/
+
+.avisolegal{
+  margin-bottom: 20px;
 }
 
-@-moz-keyframes movecircles {
-  0% {
-    margin-left: 1000px;
-  }
-  100% {
-    margin-left: -1000px;
-  }
+.avisolegal__h1{
+  font-size: 2rem;
+  font-family: var(--fonte-secundaria);
 }
-@-o-keyframes movecircles {
-  0% {
-    margin-left: 1000px;
-  }
-  100% {
-    margin-left: -1000px;
-  }
+
+.avisolegal__h3{
+  font-size: 1.5rem;
+  font-family: var(--fonte-principal);
+}
+
+.avisolegal__p{
+  font-size: 1rem;
+  font-family: var(--fonte-principal);
 }

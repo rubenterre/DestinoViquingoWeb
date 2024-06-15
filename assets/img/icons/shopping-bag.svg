@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shopping-bag</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btn_comprar" transform="translate(-43, -14)">
+            <g id="shopping-bag" transform="translate(43, 14)">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M6.331,7.99999999 L17.67,7.99999999 C18.2535589,7.99999999 18.808042,8.2547363 19.1880545,8.69760365 C19.5680669,9.14047099 19.735701,9.72722179 19.647,10.304 L18.392,18.456 C18.1668722,19.9198948 16.9071044,21.0004238 15.426,21 L8.574,21 C7.09327459,21 5.83407026,19.9195201 5.609,18.456 L4.354,10.304 C4.26529905,9.72722179 4.43293305,9.14047099 4.81294552,8.69760365 C5.192958,8.2547363 5.74744113,7.99999999 6.331,7.99999999 Z" id="Path" stroke="#635036" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9,11 L9,6 C9,4.34314575 10.3431458,3 12,3 C13.6568542,3 15,4.34314575 15,6 L15,11" id="Path" stroke="#635036" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

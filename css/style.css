@@ -51,6 +51,8 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .header__logo {
@@ -626,10 +628,38 @@ padding: 20px 0px;
 
 
 /*// Media querys //*/
+@media screen and (max-width:1024px){
+  .header{
+    height: auto;    
+  }
 
+  .circle{
+    display: none;
+  }
+
+  .nav__a{
+    padding: 0 3px!important;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  .header{
+    height: auto;    
+  }
+
+  .circle{
+    display: none;
+  }
+
+}
 
 @media screen and (max-width:500px) {
   
+  .header{
+    height: auto;
+  }
+
   .inicio__img{
     width: 100%;
     padding-top: 30px;

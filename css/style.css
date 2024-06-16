@@ -45,6 +45,14 @@ button {
 
 /*// Header //*/
 
+.header{
+  background: url(../assets/img/fondoDestinoViquingo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .header__logo {
   padding-top: 10px;
 }

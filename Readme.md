@@ -2,7 +2,7 @@
 
 Bienvenido a mi repositorio de GitHub para el proyecto de la landing page del libro "Destino viquingo: a comarca do Salnés". Este proyecto está construido utilizando HTML, CSS y JavaScript, junto con otras tecnologías y metodologías para asegurar un diseño moderno, accesible y de alto rendimiento.
 
-## Tabla de Contenidos
+## Tabla de contenidos
 
 - [Descripción](#descripción)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
@@ -17,10 +17,12 @@ Bienvenido a mi repositorio de GitHub para el proyecto de la landing page del li
 
 Este proyecto es una landing page para el libro "Destino viquingo: a comarca do Salnés". La página está diseñada para ofrecer una presentación atractiva y funcional del libro, destacando sus características y proporcionando información relevante para los potenciales lectores.
 
-![Imagen promocional del libro Destino Viquingo](https://raw.githubusercontent.com/rubenterre/DestinoViquingoWeb/assets/img/Destino_Viquingo_libro.png)
-[Descargar o ver vídeo promocional](assets/video/DestinoViquingo_Booktrailer_13062024_redux.mp4)
+![Imagen promocional del libro Destino Viquingo](https://github.com/rubenterre/DestinoViquingoWeb/blob/main/assets/img/Destino_Viquingo_libro.png)
+[Descargar o ver vídeo promocional](https://github.com/rubenterre/DestinoViquingoWeb/blob/main/assets/video/DestinoViquingo_Booktrailer_13062024_redux.mp4)
 
-## Tecnologías Utilizadas
+Sitio web:**[Destino Viquingo: A comarca do Salnés](https://destinoviquingo.rubenterre.com/)**
+
+## Tecnologías utilizadas
 
 - **HTML5**: Estructura de la página.
 - **CSS3**: Estilos y diseño visual.
@@ -33,7 +35,7 @@ Este proyecto es una landing page para el libro "Destino viquingo: a comarca do 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
 [![Sketch](https://img.shields.io/badge/Sketch-fb8c00?style=for-the-badge&logo=sketch&logoColor=white&labelColor=101010)]()
 
-## Estructura del Proyecto
+## Estructura del proyecto
 
 ```
 /
@@ -67,7 +69,7 @@ Este proyecto es una landing page para el libro "Destino viquingo: a comarca do 
 └── README.md
 ```
 
-## Metodologías y Mejores Prácticas
+## Metodologías y mejores prácticas
 
 ### Metodología BEM
 

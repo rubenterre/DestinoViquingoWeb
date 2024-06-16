@@ -20,7 +20,7 @@ Este proyecto es una landing page para el libro "Destino viquingo: a comarca do 
 ![Imagen promocional del libro Destino Viquingo](https://github.com/rubenterre/DestinoViquingoWeb/blob/main/assets/img/Destino_Viquingo_libro.png)
 [Descargar o ver vídeo promocional](https://github.com/rubenterre/DestinoViquingoWeb/blob/main/assets/video/DestinoViquingo_Booktrailer_13062024_redux.mp4)
 
-Sitio web:**[Destino Viquingo: A comarca do Salnés](https://destinoviquingo.rubenterre.com/)**
+Sitio web: **[Destino Viquingo: A comarca do Salnés](https://destinoviquingo.rubenterre.com/)**
 
 ## Tecnologías utilizadas
 
@@ -32,7 +32,8 @@ Sitio web:**[Destino Viquingo: A comarca do Salnés](https://destinoviquingo.rub
 
 [![HTML5](https://img.shields.io/badge/HTML5-ffff00?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]()
 [![CSS3](https://img.shields.io/badge/CSS3-ffab00?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()<br>
+[![MaterializeCSS](https://img.shields.io/badge/MaterializeCSS-eb7077?style=for-the-badge&logo=https://github.com/rubenterre/DestinoViquingoWeb/blob/main/assets/img/materialize.svg&logoColor=white&labelColor=101010)]()<br>
 [![Sketch](https://img.shields.io/badge/Sketch-fb8c00?style=for-the-badge&logo=sketch&logoColor=white&labelColor=101010)]()
 
 ## Estructura del proyecto

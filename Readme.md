@@ -96,7 +96,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd destino-viquingo
+   cd DestinoViquingoWeb
    ```
 3. Abre `index.html` en tu navegador preferido.
 

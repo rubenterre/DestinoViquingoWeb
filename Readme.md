@@ -5,9 +5,9 @@ Bienvenido a mi repositorio de GitHub para el proyecto de la landing page del li
 ## Tabla de contenidos
 
 - [Descripción](#descripción)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Metodologías y Mejores Prácticas](#metodologías-y-mejores-prácticas)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Metodologías y mejores prácticas](#metodologías-y-mejores-prácticas)
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribuciones](#contribuciones)

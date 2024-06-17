@@ -83,6 +83,12 @@ button {
   padding-bottom: 20px;
 }
 
+.header--avisolegal{
+  height: auto;
+  display: block;
+  padding-bottom: 15px;
+}
+
 /*// Estilos xerais //*/
 
 .titular {

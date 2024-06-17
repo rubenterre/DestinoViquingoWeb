@@ -53,6 +53,7 @@ button {
   height: 100vh;
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 
 .header__logo {

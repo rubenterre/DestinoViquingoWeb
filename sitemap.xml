@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://destinoviquingo.rubenterre.com/</loc>
+    <lastmod>2023-06-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://destinoviquingo.rubenterre.com/video/DestinoViquingo_Booktrailer_13062024_redux.mp4</loc>
+    <video:video xmlns:video="http://www.sitemaps.org/schemas/sitemap/video/1.1">
+      <video:thumbnail_loc>https://destinoviquingo.rubenterre.com/assets/img/Destino_Viquingo_libro.jpg</video:thumbnail_loc>
+      <video:title>Destino viquingo: a comarca do Salnés</video:title>
+      <video:description>Booktrailer do libro Destino viquingo: a comarca do Salnés.</video:description>
+      <video:content_loc>https://destinoviquingo.rubenterre.com/video/DestinoViquingo_Booktrailer_13062024_redux.mp4</video:content_loc>
+      <video:player_loc type="video/mp4">https://destinoviquingo.rubenterre.com/player?video=DestinoViquingo_Booktrailer_13062024_redux.mp4</video:player_loc>
+      <video:duration>32</video:duration>
+      <video:publication_date>2024-06-20T14:00:00+00:00</video:publication_date>
+      <video:tag>vikingos</video:tag>
+      <video:tag>galicia</video:tag>
+      <video:category>Educación</video:category>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+</urlset>
